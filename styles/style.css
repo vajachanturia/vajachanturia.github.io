@@ -1,0 +1,110 @@
+html {
+    background-color: rgb(157, 196, 237);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin :0 auto;
+    width: 800px;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 70px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    outline: rgba(0, 0, 0, 50%) solid 3px;
+}
+
+input[type='text'],
+input[type='password'] {
+
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 7px;
+    background: whitesmoke;
+}
+input[type='text']:focus,
+input[type='password']:focus {
+background-color: #ddd;
+outline: none;
+} 
+input[type='text']:hover,
+input[type='password']:hover {
+background-color: #ddd;
+outline: none;
+} 
+.registerbtn {
+    background-color: rgba(157, 196, 237, 0.803);
+    color: #000000;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.registerbtn:hover {
+    background-color: rgba(157, 196, 237);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+h1.small {
+    line-height: 70%;
+}
+
+h2.small {
+    line-height: 70%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#mamiko {
+    height: 300px;
+    width: 300px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    margin: 7.5px;
+    font-weight: bold;
+}
+
+p.desc {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+p#mamikotxt {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+p#gafrt {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+}
